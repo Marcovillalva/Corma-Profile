@@ -12,7 +12,7 @@ import Section from './Section';
 class Layout extends Component {
     render(){
         return(
-            <div>
+            <div className="MainCont">
             <Header/>
             <Footer/>
             <Barnav/>

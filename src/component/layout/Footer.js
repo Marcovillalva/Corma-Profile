@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return (
-            <div>
+            <div className="MainContFooter">
                 Footer
             </div>
         );
