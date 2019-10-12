@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Layout from './component/layout/Index';
 
 function App() {
   return (
-    <div className="App">
-      Hola Perros
+    <div>
+      <Layout/>
     </div>
   );
 }
