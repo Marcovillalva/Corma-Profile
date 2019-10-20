@@ -16,8 +16,8 @@ class Layout extends Component {
             <div className="MainCont">
             <Header/>
             <Barnav/>
-            <Section/>
             <Aside/>
+            <Section/>
             <Footer/>
             </div>
         );

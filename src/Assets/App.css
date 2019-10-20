@@ -1,6 +1,6 @@
 .container-padre-app {
-  margin-bottom: 10px;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  height: 1200px;
-  background-color: whitesmoke; }
+  height: 1150px;
+  background-color: #141B4D; }
