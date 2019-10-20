@@ -9,15 +9,16 @@ import Section from './Section';
 
 
 
+
 class Layout extends Component {
     render(){
         return(
             <div className="MainCont">
             <Header/>
-            <Footer/>
             <Barnav/>
-            <Aside/>
             <Section/>
+            <Aside/>
+            <Footer/>
             </div>
         );
     } 

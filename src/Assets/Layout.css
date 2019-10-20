@@ -1,5 +1,8 @@
 .MainCont {
   display: flex;
+  align-items: flex-end;
+  margin: 10px;
   width: 100%;
-  height: 1900px;
-  background-color: aquamarine; }
+  height: 1100px;
+  background-color: royalblue;
+  color: black; }
