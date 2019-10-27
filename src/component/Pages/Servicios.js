@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
+import Layout from './../layout/Index';
 
-export class Header extends Component {
+export class Servicios extends Component {
     render() {
         return (
-            <div className ="MainContHeader">
+            <div>
                 
             </div>
         );
     }
 }
 
-export default Header;
-
+export default Servicios;
