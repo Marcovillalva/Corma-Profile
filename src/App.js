@@ -14,6 +14,7 @@ import Pageerror404 from './component/Pages/Pageerror404';
 // }
 
 <BrowserRouter>
+ <Redirect from ="/" to = Home/>
  <Switch>
     <Route exact path="Home" Component={Home}/>
     <Route exact path="Servicios" Component={Servicios}/>
@@ -30,5 +31,6 @@ import Pageerror404 from './component/Pages/Pageerror404';
 
 export default App;
 
+// OTRA FORMA DE 
+{/* <Route render={() => ('./component/Pages/Servicios') />} */}
 
-<Route render={() => ('./component/Pages/Servicios') />}
